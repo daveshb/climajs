@@ -2,10 +2,6 @@
 const apiKey = "5b5b731343003351e1780f61e7a57c21";
 
 
-
-// const apiKey2 = process.env.MI_API_KEY;
-// console.log(apiKey2);
-
 console.log(process.env.MI_API_KEY)
 
 
@@ -47,4 +43,6 @@ async function getWeather() {
     resultDiv.innerText = error.message;
   }
 }
+
+// Falta agregar otro boton
 
